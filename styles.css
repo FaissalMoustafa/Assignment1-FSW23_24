@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap'); 
+
+.site-header{
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: top 0.3s;
+}
+.primary-header{
+  top: 0;
+  left: 0;
+  display: flex; 
+  justify-content:space-between;
+  font-family:  "Noto Sans",Helvetica,Geneva,Arial,sans-serif;
+  width: 100%;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  background-color: transparent/*#ffffff;*/;
+  height: 5rem;
+  z-index: 1000;
+  transition: top 0.3s;
+}
+
+.site-header-item{
+  display: flex; 
+  padding: 10px;
+  font-family:  "Noto Sans",Helvetica,Geneva,Arial,sans-serif;
+  justify-content:space-between
+}
+
+.moto a{ 
+  font-size: 115%;
+  display: flex;
+  justify-content:space-between;
+  color: #1a1a1a;
+  text-decoration: none;
+  padding: 10px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.about-us a{ 
+  display: flex;
+  justify-content:space-between;
+  color: #1a1a1a;
+  text-decoration: none;
+  padding: 10px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.moto a:hover {
+  color: #ab1919;
+}
+.about-us a:hover {
+  color: #ab1919;
+}
+
+.menu-bar {
+  font-size: 110%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;  
+  background-color: #1a1a1a;
+  height:3rem;
+  clear: both;
+}
+
+.menu-item a {
+  display: block;
+  padding: 10px;
+  font-family:  "Noto Sans",Helvetica,Geneva,Arial,sans-serif;
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+.menu-item a:hover {
+  background-color: #ab1919;
+}
+
+.menu-bar-2{
+  font-size: 100%;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;  
+  background-color: #16ae95;
+  height:4rem;
+  clear: both;
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 100%;
+  left: 0;
+}
+
+.scroll-horz{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.menu-item-2 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-family:  "Noto Sans",Helvetica,Geneva,Arial,sans-serif;
+}
+
+.menu-item-2 a {
+  margin-right: 0;
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.menu-item-2:last-child {
+  margin-right: 0; /* Remove margin from the last link */
+}
+
+.menu-item-2 a:hover {
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 300%;
+  font-family: 'Reggae One';
+  background-position: center;
+  background-image: url("menu banner.jpg");
+  background-size: cover;
+  color: #f5f5f5;
+}
+
+body {
+  
+  font-family: 'Reggae One';
+  background-color: beige;
+  text-align: center;
+  color: #1a1a1a;
+  ;
+  font-size:150%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+span.meal-heading {
+  font-size: 120%;
+}
+    
+ul.meal-list {
+  list-style-type: none;
+  margin: 50px;
+  padding: 0;
+}
+
