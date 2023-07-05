@@ -31,6 +31,13 @@
   justify-content:space-between
 }
 
+.logo{
+  display: inline-block;
+  width: 200px;
+  height: 75px;
+  /*background-image: url("nandos-logo.svg");*/
+  background-size: cover;
+}
 .moto a{ 
   font-size: 115%;
   display: flex;
