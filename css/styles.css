@@ -112,6 +112,7 @@
   margin: 0;
   padding: 0;
   font-family:  "Noto Sans",Helvetica,Geneva,Arial,sans-serif;
+  color:#1a1a1a;
 }
 
 .menu-item-2 a {
@@ -119,6 +120,7 @@
   display: inline-block;
   padding: 10px;
   text-decoration: none;
+  color:#1a1a1a;
 }
 
 .menu-item-2:last-child {
